@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title> <!-- Title of the web page that appears in the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links the CSS stylesheet for styling the quiz app -->
+</head>
+<body>
+    <div class="quiz-section"> <!-- Main container for the quiz section -->
+        <div id="quiz"> <!-- Container for the quiz content -->
+            <h2 class="question" id="question">quiz question</h2> <!-- Display the quiz question -->
+            <hr /> <!-- Horizontal line for separation -->
+            <ul> <!-- Unordered list for quiz options -->
+                <li> <!-- List item for option A -->
+                    <input type="radio" name="answer" class="answer" id="a" /> <!-- Radio button for answer A -->
+                    <label for="a" id="option_1">quiz option</label> <!-- Label for answer A -->
+                </li>
+
+                <li> <!-- List item for option B -->
+                    <input type="radio" name="answer" class="answer" id="b" /> <!-- Radio button for answer B -->
+                    <label for="b" id="option_2">quiz option</label> <!-- Label for answer B -->
+                </li>
+
+                <li> <!-- List item for option C -->
+                    <input type="radio" name="answer" class="answer" id="c" /> <!-- Radio button for answer C -->
+                    <label for="c" id="option_3">quiz option</label> <!-- Label for answer C-->
+                </li>
+
+                <li>  <!-- List item for option D-->
+                    <input type="radio" name="answer" class="answer" id="d" /> <!-- Radio button for answer D -->
+                    <label for="d" id="option_4">quiz option</label> <!-- Label for answer D-->
+                </li>
+            </ul>
+            <hr /> <!-- Horizontal line for separation -->
+            <div class="btn">  <!-- Container for the submit button -->
+                <button type="submit" id="submit">Submit</button>  <!-- Submit button for submitting answers -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>  <!-- Links the JavaScript file for quiz functionality -->
+</body>
+</html>
