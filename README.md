@@ -16,4 +16,4 @@ The Quiz App is an interactive web application that allows users to answer a ser
 
 ## How to Run the Project
 1. Clone the repository :
-   git clone 
+   git clone https://github.com/PreetySinha84/VerveBridge-Task-2-Quiz-App.git
